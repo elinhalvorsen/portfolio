@@ -1,0 +1,16 @@
+* {
+  font-family: "SuperSunday";
+}
+
+p {
+  font-family: "Montserrat";
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("./fonts/montserrat.regular.ttf");
+}
+
+@font-face {
+  font-family: SuperSunday;
+  src: url("./fonts/SuperSunday-vn3MA.ttf");
+}
