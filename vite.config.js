@@ -1,3 +1,3 @@
 export default {
-  base: "/portef-lje",
+  base: "/portfolio",
 };
