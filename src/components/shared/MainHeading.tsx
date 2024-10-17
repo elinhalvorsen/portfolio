@@ -2,13 +2,14 @@ import React from "react";
 
 interface IMainHeadning {
   title: string;
+  text: string;
 }
-const MainHeading = ({ title }: IMainHeadning) => {
+const MainHeading = ({ title, text }: IMainHeadning) => {
   return (
     <section className="row">
-      <article>
-        <h1 className="text-center mt-3">{title}</h1>
-        <hr />
+      <article className="text-center mt-3">
+        <h1>{title}</h1>
+        <p>{text}</p>
       </article>
     </section>
   );

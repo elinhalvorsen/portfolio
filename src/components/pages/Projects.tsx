@@ -4,7 +4,6 @@ import Subtitle from "../shared/Subtitle";
 const Projects = () => {
   return (
     <>
-      <MainHeading title="PROSJEKTER" />
       <Subtitle title="Her finner dere ulike prosjekter" />
       <p>Eksamen i Webutvkling</p>
       <a href="https://github.com/elinhalvorsen/DS3103_Webutvikling_Eksamen">
