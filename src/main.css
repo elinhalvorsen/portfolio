@@ -1,6 +1,9 @@
 * {
   font-family: "SuperSunday";
 }
+body {
+  background-color: rgba(97, 60, 47, 0.938);
+}
 
 p {
   font-family: "Montserrat";

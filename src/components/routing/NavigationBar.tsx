@@ -4,22 +4,22 @@ import { Link } from "react-router-dom";
 const NavigationBar = () => {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid justify-content-between">
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <Link className="nav-link text-white" to={"/portfolio"}>
+                <Link className="nav-link" to={"/portfolio"}>
                   Hjem
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to={"projects"}>
+                <Link className="nav-link" to={"/portfolio/projects"}>
                   Prosjekter
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to={"aboutMe"}>
+                <Link className="nav-link" to={"/portfolio/aboutMe"}>
                   Om meg
                 </Link>
               </li>

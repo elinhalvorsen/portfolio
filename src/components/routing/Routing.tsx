@@ -12,8 +12,8 @@ const Routing = () => {
         <main>
           <Routes>
             <Route path="/portfolio" element={<MainPage />}></Route>
-            <Route path="projects" element={<Projects />}></Route>
-            <Route path="aboutMe" element={<AboutMe />}></Route>
+            <Route path="/portfolio/projects" element={<Projects />}></Route>
+            <Route path="/portfolio/aboutMe" element={<AboutMe />}></Route>
           </Routes>
         </main>
       </div>
