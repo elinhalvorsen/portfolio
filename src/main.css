@@ -5,6 +5,9 @@ body {
   background-color: rgba(97, 60, 47, 0.938);
 }
 
+#navbar-color {
+  background-color: #856054;
+}
 p {
   font-family: "Montserrat";
 }
