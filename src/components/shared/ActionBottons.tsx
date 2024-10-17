@@ -5,7 +5,7 @@ interface IActionButtons {
 }
 const ActionButtons = ({ actionTab, setActionTab }: IActionButtons) => {
   return (
-    <div className="d-flex justify-content-center gap-5 mt-5">
+    <div className="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-5 col-sm-12">
       <button
         onClick={() => {
           setActionTab(0);
