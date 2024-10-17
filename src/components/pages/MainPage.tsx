@@ -4,8 +4,8 @@ const MainPage = () => {
   return (
     <>
       <MainHeading title={"PORTEFØLJE"} />
-      <p>Her skal det komme prosjekter jeg har holdt på med</p>
-      <img src="/portfolio/elin-me.png" alt="figur" />
+      <h2>Elin Halvorsen</h2>
+      <p>Her er min portefølje</p>
     </>
   );
 };

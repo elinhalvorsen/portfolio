@@ -7,6 +7,7 @@ const NavigationBar = () => {
       <nav className="navbar navbar-expand-lg" id="navbar-color">
         <div className="container-fluid justify-content-between">
           <img
+            id="elin-me-image"
             src="/portfolio/elin-me.png"
             alt="Bilde av headsett i navbaren"
           />

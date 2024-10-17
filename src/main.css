@@ -2,7 +2,13 @@
   font-family: "SuperSunday";
 }
 body {
-  background-color: rgba(97, 60, 47, 0.938);
+  background-color: rgba(248, 221, 212, 0.938) !important;
+}
+#elin-me-image {
+  width: 90px;
+}
+li {
+  font-size: 1.5rem;
 }
 
 #navbar-color {
