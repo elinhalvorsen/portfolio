@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Subtitle from "../shared/Subtitle";
+import Paragraph from "../shared/Paragraph";
 
 const MainPage = () => {
   return (
     <>
       <Subtitle title={"Hei"} />
-      <p>Her kommer tekst om meg</p>
+      <Paragraph text={"Kommer tekst"} />
     </>
   );
 };

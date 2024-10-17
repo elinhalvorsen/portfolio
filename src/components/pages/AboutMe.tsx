@@ -1,14 +1,25 @@
 import React from "react";
 import MainHeading from "../shared/MainHeading";
 import Subtitle from "../shared/Subtitle";
+import Paragraph from "../shared/Paragraph";
+import ContentBox from "../shared/ContentBox";
 const AboutMe = () => {
   return (
     <>
       <Subtitle title={"Sosiale Medier"} />
-      <p>LinedIn</p>
-      <a href="https://www.linkedin.com/in/elin-halvorsen-6b387b205/">
-        https://www.linkedin.com/in/elin-halvorsen-6b387b205/
-      </a>
+      <Paragraph text={"Kommer tekst"} />
+      <ContentBox
+        title={"LinkedIn"}
+        text={
+          <a
+            href="https://www.linkedin.com/in/elin-halvorsen-6b387b205/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Elin Halvorsen
+          </a>
+        }
+      />
     </>
   );
 };
