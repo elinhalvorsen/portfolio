@@ -4,7 +4,7 @@ interface ISubtitle {
 }
 const Subtitle = ({ title }: ISubtitle) => {
   return (
-    <section className="row">
+    <section className="row mt-3">
       <article>
         <h2 className="text-center mt-3">{title}</h2>
       </article>

@@ -10,7 +10,7 @@ const ActionButtons = ({ actionTab, setActionTab }: IActionButtons) => {
         onClick={() => {
           setActionTab(0);
         }}
-        className={`btn btn-${actionTab === 0 ? "danger" : "light"}`}
+        className={`btn btn-${actionTab === 0 ? "white" : "dark"}`}
       >
         Om meg
       </button>
@@ -18,7 +18,7 @@ const ActionButtons = ({ actionTab, setActionTab }: IActionButtons) => {
         onClick={() => {
           setActionTab(1);
         }}
-        className={`btn btn-${actionTab === 1 ? "danger" : "light"}`}
+        className={`btn btn-${actionTab === 1 ? "white" : "dark"}`}
       >
         Prosjekter
       </button>
@@ -26,7 +26,7 @@ const ActionButtons = ({ actionTab, setActionTab }: IActionButtons) => {
         onClick={() => {
           setActionTab(2);
         }}
-        className={`btn btn-${actionTab === 2 ? "danger" : "light"}`}
+        className={`btn btn-${actionTab === 2 ? "white" : "dark"}`}
       >
         Kontakt
       </button>
