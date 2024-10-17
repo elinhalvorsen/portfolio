@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from "../pages/MainPage";
 import NavigationBar from "./NavigationBar";
+import AboutMe from "../pages/AboutMe";
+import Projects from "../pages/Projects";
 const Routing = () => {
   return (
     <BrowserRouter>
@@ -10,9 +12,8 @@ const Routing = () => {
         <main>
           <Routes>
             <Route path="/portfolio" element={<MainPage />}></Route>
-            <Route path="Kontakt"></Route>
-            <Route path="Prosjekter"></Route>
-            <Route path="Om meg"></Route>
+            <Route path="projects" element={<Projects />}></Route>
+            <Route path="aboutMe" element={<AboutMe />}></Route>
           </Routes>
         </main>
       </div>
