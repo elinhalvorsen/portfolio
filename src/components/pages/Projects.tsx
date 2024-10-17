@@ -1,8 +1,10 @@
 import React from "react";
+import MainHeading from "../shared/MainHeading";
 const Projects = () => {
   return (
     <>
-      <h1>hei</h1>
+      <MainHeading title="PROSJEKTER" />
+      <p>Her kommer noen prosjekter</p>
     </>
   );
 };

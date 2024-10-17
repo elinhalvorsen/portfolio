@@ -1,8 +1,9 @@
 import React from "react";
+import MainHeading from "../shared/MainHeading";
 const MainPage = () => {
   return (
     <>
-      <h1>PORTEFØLJE</h1>
+      <MainHeading title={"PORTEFØLJE"} />
       <p>Her skal det komme prosjekter jeg har holdt på med</p>
       <img src="public/elin-me.png" alt="" />
     </>

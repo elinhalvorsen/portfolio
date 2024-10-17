@@ -1,8 +1,10 @@
 import React from "react";
+import MainHeading from "../shared/MainHeading";
 const AboutMe = () => {
   return (
     <>
-      <h1>hei</h1>
+      <MainHeading title="OM MEG" />
+      <p>Her kommer det informasjon om meg</p>
     </>
   );
 };
