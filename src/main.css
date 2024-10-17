@@ -5,16 +5,20 @@ body {
   background-color: rgba(248, 221, 212, 0.938) !important;
 }
 #elin-me-image {
-  width: 90px;
+  width: 70px;
 }
 li {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
-#navbar-color {
-  background-color: #856054;
+#navbarNav {
+  text-align: center;
 }
-p {
+#navbar-color {
+  background-color: #856054 !important;
+}
+p,
+a {
   font-family: "Montserrat";
 }
 @font-face {

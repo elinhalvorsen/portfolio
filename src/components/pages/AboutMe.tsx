@@ -4,7 +4,10 @@ const AboutMe = () => {
   return (
     <>
       <MainHeading title="OM MEG" />
-      <p>Her kommer det informasjon om meg</p>
+      <p>LinedIn</p>
+      <a href="https://www.linkedin.com/in/elin-halvorsen-6b387b205/">
+        https://www.linkedin.com/in/elin-halvorsen-6b387b205/
+      </a>
     </>
   );
 };
