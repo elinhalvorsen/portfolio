@@ -5,8 +5,8 @@ import Paragraph from "../shared/Paragraph";
 const MainPage = () => {
   return (
     <>
-      <Subtitle title={"Hei"} />
-      <Paragraph text={"Kommer tekst"} />
+      <Subtitle title={"Om meg"} />
+      <Paragraph text={"Tekst kommer..."} />
     </>
   );
 };
