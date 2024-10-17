@@ -7,19 +7,15 @@ body {
 #elin-me-image {
   width: 33%;
 }
-li {
-  font-size: 1.3rem;
-}
+
 button {
   background-color: #856054 !important;
-  font-size: 2rem !important;
+  font-size: 1.8rem !important;
 }
-#navbarNav {
-  text-align: center;
+h1 {
+  font-size: 4rem !important;
 }
-#navbar-color {
-  background-color: #856054 !important;
-}
+
 p,
 a {
   font-family: "Montserrat";

@@ -1,5 +1,4 @@
 import React from "react";
-import MainHeading from "../shared/MainHeading";
 import Subtitle from "../shared/Subtitle";
 const Projects = () => {
   return (
