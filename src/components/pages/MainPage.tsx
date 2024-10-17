@@ -5,7 +5,7 @@ const MainPage = () => {
     <>
       <MainHeading title={"PORTEFØLJE"} />
       <p>Her skal det komme prosjekter jeg har holdt på med</p>
-      <img src="./portfolio/elin-me.png" alt="" />
+      <img src="/portfolio/elin-me.png" alt="" />
     </>
   );
 };
