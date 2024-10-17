@@ -4,7 +4,7 @@ const MainPage = () => {
     <>
       <h1>PORTEFØLJE</h1>
       <p>Her skal det komme prosjekter jeg har holdt på med</p>
-      <img src="/portfolio/public/elin-me.png" alt="" />
+      <img src="./portfolio/public/elin-me.png" alt="" />
     </>
   );
 };
