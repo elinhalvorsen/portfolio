@@ -9,26 +9,8 @@ const MainPage = () => {
 
   return (
     <>
-      <MainHeading title={"PORTEFØLJE"} text="Av Elin Halvorsen" />
-      <h2>Elin Halvorsen</h2>
-      <p>Her er min portefølje</p>
-      <ActionButtons
-        actionTab={actionTabPage}
-        setActionTab={setActionTabPage}
-      />
-      {actionTabPage === 0 ? (
-        <MainPage />
-      ) : actionTabPage === 1 ? (
-        <Projects />
-      ) : actionTabPage === 2 ? (
-        <AboutMe />
-      ) : null}
-      <Subtitle title="Her finner dere ulike prosjekter" />
-      <img
-        id="elin-me-image"
-        src="/portfolio/elin-me.png"
-        alt="Bilde av figur"
-      />
+      <h1>hei</h1>
+      <p>Her kommer tekst om meg</p>
     </>
   );
 };

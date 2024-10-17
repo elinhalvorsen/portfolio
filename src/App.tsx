@@ -5,7 +5,7 @@ import "bootstrap/dist/js/bootstrap";
 import Routing from "./components/routing/Routing";
 import MainPage from "./components/pages/MainPage";
 const App = () => {
-  return <MainPage />;
+  return <Routing />;
 };
 
 export default App;
