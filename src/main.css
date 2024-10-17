@@ -10,7 +10,10 @@ body {
 li {
   font-size: 1.3rem;
 }
-
+button {
+  background-color: #856054 !important;
+  font-size: 2rem !important;
+}
 #navbarNav {
   text-align: center;
 }
