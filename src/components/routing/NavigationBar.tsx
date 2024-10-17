@@ -7,7 +7,7 @@ const NavigationBar = () => {
       <nav className="navbar navbar-expand-lg" id="navbar-color">
         <div className="container-fluid justify-content-between">
           <img
-            src="/portfolio/elin-me.png"
+            src="portfolio/public/elin-me.png"
             alt="Bilde av headsett i navbaren"
           />
           <div className="collapse navbar-collapse">
