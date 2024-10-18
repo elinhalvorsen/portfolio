@@ -8,7 +8,7 @@ const Projects = () => {
       <Subtitle title="Prosjekter" />
       <Paragraph text={"Tekst kommer..."} />
       <ContentBox
-        title={"Eksamen Webutvikling"}
+        title={"Webutvikling"}
         text={
           <a
             href="https://github.com/elinhalvorsen/DS3103_Webutvikling_Eksamen"
@@ -20,7 +20,7 @@ const Projects = () => {
         }
       />
       <ContentBox
-        title={"Eksamen Kartbaserte Websystemer"}
+        title={"Kartbaserte Websystemer"}
         text={
           <a
             href="https://github.com/elinhalvorsen/KWS2100_Kartbaserte_Websystemer_Eksamen"
@@ -33,7 +33,7 @@ const Projects = () => {
       />
 
       <ContentBox
-        title={"Eksamen Designprosjekt"}
+        title={"Designprosjekt"}
         text={
           <a
             href="https://www.figma.com/design/bPH9Iw8WCGkhd2K7J13m7w/Design-Prosjekt?node-id=8-2&t=pWB7z2PyTm3arvxF-1"

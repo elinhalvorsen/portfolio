@@ -1,5 +1,4 @@
 import React from "react";
-import MainHeading from "../shared/MainHeading";
 import Subtitle from "../shared/Subtitle";
 import Paragraph from "../shared/Paragraph";
 import ContentBox from "../shared/ContentBox";
