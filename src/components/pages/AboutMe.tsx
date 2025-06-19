@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <>
       <Subtitle title={"Sosiale Medier"} />
-      <Paragraph text={"Tekst kommer..."} />
+      <Paragraph text={"Tekst kommer"} />
       <ContentBox
         title={"LinkedIn"}
         text={
