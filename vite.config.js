@@ -1,3 +1,3 @@
 export default {
-  base: "/portfolio",
+  base: "https://elinhalvorsen.no",
 };
