@@ -5,8 +5,12 @@ import Paragraph from "../shared/Paragraph";
 const MainPage = () => {
   return (
     <>
-      <Subtitle title={"Om meg"} />
-      <Paragraph text={"Tekst kommer..."} />
+      <Subtitle title={"Hvem er jeg?"} />
+      <Paragraph
+        text={
+          "Jeg er en 25 år gammel jente, med bachelor i informasjonsteknologi med fordypning i interaktiv design."
+        }
+      />
     </>
   );
 };
