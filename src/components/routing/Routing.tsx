@@ -8,7 +8,7 @@ import Image from "./Image";
 const Routing = () => {
   const [actionTabPage, setActionTabPage] = useState(0);
   return (
-    <div className="container">
+    <div>
       <MainHeading title={"PORTEFØLJE"} text="Av: Elin Halvorsen" />
       <ActionButtons
         actionTab={actionTabPage}
