@@ -6,7 +6,7 @@ interface IMainHeadning {
 }
 const MainHeading = ({ title, text }: IMainHeadning) => {
   return (
-    <section className="row text-white sticky" id="border-heading">
+    <section className="row text-white" id="border-heading">
       <article className="text-center mt-3">
         <h1>{title}</h1>
         <p>{text}</p>

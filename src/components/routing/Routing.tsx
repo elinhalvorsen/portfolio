@@ -21,7 +21,6 @@ const Routing = () => {
       ) : actionTabPage === 2 ? (
         <AboutMe />
       ) : null}
-      <Image />
     </div>
   );
 };

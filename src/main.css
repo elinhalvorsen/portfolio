@@ -4,12 +4,12 @@
 body {
   background-color: rgba(248, 221, 212, 0.938) !important;
 }
-#elin-me-image {
-  width: 33%;
-}
 
 #border-heading {
-  background-color: rgb(72, 118, 65) !important;
+  background-color: #487641 !important;
+  margin-left: 7px;
+  margin-right: 7px;
+  border-radius: 10px;
 }
 button {
   background-color: #856054 !important;
@@ -31,4 +31,8 @@ a {
 @font-face {
   font-family: SuperSunday;
   src: url("./fonts/SuperSunday-vn3MA.ttf");
+}
+
+#carder {
+  max-width: 540px;
 }
