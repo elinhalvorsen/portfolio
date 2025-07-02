@@ -6,7 +6,9 @@ const Projects = () => {
   return (
     <div>
       <Subtitle title="Prosjekter" />
-      <Paragraph text={"Tekst kommer..."} />
+      <Paragraph
+        text={"Dette er noen av prosjektene jeg har hatt gjennom studiet"}
+      />
       <ContentBox
         title={"Webutvikling"}
         text={
@@ -16,6 +18,17 @@ const Projects = () => {
             rel="noopener noreferrer"
           >
             GitHub Repository
+          </a>
+        }
+      />
+      <ContentBox
+        title={"Bachelorprosjekt"}
+        text={
+          <a
+            href="https://www.figma.com/design/b69HSy6ZQFr8CTNuZ6BQsu/Gruppe25-2025-Statenspensjonskasse?node-id=206-1733&t=yLuIii5s0foFKx0Q-1"
+            target="_blank"
+          >
+            Figma Prototype
           </a>
         }
       />
