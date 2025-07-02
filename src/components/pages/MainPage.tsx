@@ -7,7 +7,7 @@ const MainPage = () => {
   return (
     <>
       <Subtitle title={"Hvem er jeg?"} />
-      <div id="carder" className="card mb-5">
+      {/* <div id="carder" className="card mb-5">
         <div className="row g-0">
           <div className="col-md-4">
             <img
@@ -26,11 +26,11 @@ const MainPage = () => {
           </div>
         </div>
       </div>
-      <h2>Om meg kort</h2>
+      */}
 
       <Paragraph
         text={
-          "Jeg er en 25 år gammel jente, med bachelor i informasjonsteknologi med fordypning i interaktiv design."
+          "Jeg er en 25 år gammel jente, med bachelor i informasjonsteknologi med fordypning i interaktiv design. Dette er min portefølje som er laget med React, bootstrap og jeg hoster den gjennom Github pages med Github Actions"
         }
       />
       <Image />

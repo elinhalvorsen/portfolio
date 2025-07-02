@@ -6,7 +6,9 @@ const AboutMe = () => {
   return (
     <>
       <Subtitle title={"Sosiale Medier"} />
-      <Paragraph text={"Tekst kommer"} />
+      <Paragraph
+        text={"Ta gjerne kontakt med meg på linkedin eller mail for spørsmål!"}
+      />
       <ContentBox
         title={"LinkedIn"}
         text={
@@ -18,6 +20,10 @@ const AboutMe = () => {
             Elin Halvorsen
           </a>
         }
+      />
+      <ContentBox
+        title={"E-postadresse"}
+        text={<a>elin_halvorsen99@outlook.com</a>}
       />
     </>
   );
